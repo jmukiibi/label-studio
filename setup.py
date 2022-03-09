@@ -27,7 +27,7 @@ setuptools.setup(
     description='Label Studio annotation tool',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/heartexlabs/label-studio',
+    url='https://github.com/jmukiibi/label-studio',
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
