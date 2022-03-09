@@ -40,10 +40,10 @@ services:
     environment:
       - DJANGO_DB=default
       - POSTGRE_NAME=postgres
-      - POSTGRE_USER=postgres
-      - POSTGRE_PASSWORD=
+      - POSTGRE_USER=lkyxkwzemwhdsp
+      - POSTGRE_PASSWORD=e409a5ca2d3fe42e5356dd83d7bd14eff2328bc3948edc8a0b1a38d14ce96ccb
       - POSTGRE_PORT=5432
-      - POSTGRE_HOST=db
+      - POSTGRE_HOST=ec2-34-230-231-71.compute-1.amazonaws.com
       - LABEL_STUDIO_HOST=${LABEL_STUDIO_HOST:-}
       - LABEL_STUDIO_COPY_STATIC_DATA=true
     volumes:
