@@ -39,7 +39,7 @@ services:
       - db
     environment:
       - DJANGO_DB=default
-      - POSTGRE_NAME=postgres
+      - POSTGRE_NAME=d1hfci5988rpbi
       - POSTGRE_USER=lkyxkwzemwhdsp
       - POSTGRE_PASSWORD=e409a5ca2d3fe42e5356dd83d7bd14eff2328bc3948edc8a0b1a38d14ce96ccb
       - POSTGRE_PORT=5432
